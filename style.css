@@ -59,7 +59,16 @@ footer {
 }
 
 @media all and (max-width: 600px) {
-  .text-input {
-    height: 30vh;
+  #text {
+    width: 70vw;
+  }
+}
+
+@media all and (min-width: 2500px) {
+  #text {
+    width: 40vw;
+  }
+  * {
+    font-size: 50px;
   }
 }
