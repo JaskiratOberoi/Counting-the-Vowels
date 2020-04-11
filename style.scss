@@ -1,0 +1,64 @@
+* {
+  font-size: 20px;
+  font-family: Segoe UI;
+}
+
+body {
+  display: flex;
+  overflow-x: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.text-input {
+  border: none;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  height: 3rem;
+  width: 30vw;
+  padding: 0.2rem 1rem;
+  text-align: center;
+}
+
+.submit {
+  text-align: center;
+}
+
+button {
+  margin: 1rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #5cc0f9;
+  color: #fff;
+  text-transform: uppercase;
+  &:hover {
+    box-shadow: 0 3px 5px rgba(92, 192, 249, 0.4);
+    cursor: pointer;
+  }
+}
+
+.answer {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+}
+
+@media all and (max-width: 600px) {
+  .text-input {
+    height: 30vh;
+  }
+}
