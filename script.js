@@ -1,7 +1,7 @@
 let count = 0;
 function counter() {
   let text = document.getElementById("text").value;
-  text.toLowerCase();
+  text = text.toLowerCase();
 
   for (var i = 0; i < text.length; i++) {
     var x = text[i];
